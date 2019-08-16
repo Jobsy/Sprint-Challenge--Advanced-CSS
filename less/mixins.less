@@ -1,1 +1,19 @@
 // Mixins Here
+
+.btn1(@btnColor, @wbtnWidth) {
+
+    width: @wbtnWidth;
+    background-color: lighten(@btnColor, 0%);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    color: @porcelain;
+
+}
+
+//anchor tag hover
+.hover() {
+    color: lighten(@header-font-color, 50%)
+}
