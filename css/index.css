@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -155,10 +158,44 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.headerNav {
+  background-color: blue;
+}
+.headerNav nav {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.headerNav nav h1 {
+  flex: 1;
+  padding: 10px 0;
+}
+.headerNav nav ul {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  margin: 10px 0;
+  background-color: green;
+}
+.headerNav nav ul li {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  background-color: greenyellow;
 }
 footer {
   color: #22283B;
@@ -175,6 +212,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 4px;
 }
 .home .space-images {
   display: flex;
@@ -211,6 +251,16 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 35%;
+  background-color: #22283a;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 4px;
+  text-align: center;
+  color: #F6F7F8;
 }
 .home .walk .walk-img {
   width: 46%;
